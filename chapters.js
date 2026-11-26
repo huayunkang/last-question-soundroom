@@ -537,8 +537,7 @@
         };
         seam.addEventListener('pointerdown', e => {
           if (!e.isPrimary || e.button !== 0 || pointer != null) return;
-          e.preventDefault();
-          seam.focus();
+          seam.focus({ preventScroll: true });
           seam.setPointerCapture(e.pointerId);
           pointer = e.pointerId;
           originX = e.clientX;
