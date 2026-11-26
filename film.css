@@ -28,3 +28,4 @@ html.reduced *,html.reduced *:before,html.reduced *:after{animation-duration:.00
 .end-gap.mood-open:before{background:linear-gradient(90deg,#17141bf7,#211a28dd 46%,transparent 88%)}.mood-tight .plate{filter:saturate(.76) contrast(1.055)}.mood-signed .route-note{border-left-color:#d89cab}.splice-pass .pass-strip{padding:6px 10px}.splice-pass .pass-holes{gap:3px}.splice-pass .pass-holes b{width:6px;height:6px}
 @media(max-width:650px){.end-gap.mood-open:before{background:linear-gradient(90deg,#17141bee,#211a28c9)}}
 a.skip:not(:focus){clip-path:inset(50%);width:1px;height:1px;overflow:hidden}
+@media(max-width:650px){.question h1 .phrase{display:inline-block;white-space:nowrap}.question h1{line-height:1.27}}
